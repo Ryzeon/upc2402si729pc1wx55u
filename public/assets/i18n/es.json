@@ -1,0 +1,12 @@
+{
+  "app": {
+    "title": "Biografías de la WHO"
+  },
+  "biography": {
+    "title": "Todas las biografías",
+    "LastModified": "Última modificación",
+    "PublicationDate": "Fecha de publicación",
+    "DateCreated": "Fecha de creación",
+    "Provider": "Proveedor"
+  }
+}

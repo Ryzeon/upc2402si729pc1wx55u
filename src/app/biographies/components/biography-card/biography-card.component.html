@@ -1,0 +1,33 @@
+<mat-card aria-label="Biography Card">
+  <mat-card-header>
+    <mat-card-title>
+      {{ biography.title }}
+    </mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content class="scrollable-content">
+
+    <p [innerHTML]="biography.biography"></p>
+  </mat-card-content>
+
+
+  <mat-card-footer>
+    <p>
+      {{ 'LastModified' | translate }}: {{ biography.lastModified | date }}
+    </p>
+
+    <p>
+      {{ 'PublicationDate' | translate }}: {{ biography.publicationDate | date }}
+    </p>
+
+    <p>
+      {{ 'DateCreated' | translate }}: {{ biography.dateCreated | date }}
+
+    </p>
+
+    <p>
+      {{ 'Provider' | translate }}: {{ biography.provider }}
+
+    </p>
+  </mat-card-footer>
+</mat-card>

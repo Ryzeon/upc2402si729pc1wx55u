@@ -1,0 +1,12 @@
+{
+  "app": {
+    "title": "WHO Biographies"
+  },
+  "biography": {
+    "title": "All biographies information",
+    "LastModified": "Last modified",
+    "PublicationDate": "Publication date",
+    "DateCreated": "Date created",
+    "Provider": "Provider"
+  }
+}
